@@ -1,0 +1,15 @@
+.topbar {
+  // background-color: blue;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+
+  nav {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  }
+}
+
+.height {
+  height: 80px;
+}

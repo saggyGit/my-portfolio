@@ -1,0 +1,41 @@
+.testimonials {
+  // background-color: rebeccapurple;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/bg2.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+  // background-image: url("../images/testinomials.jpg");
+  // background-size: cover;
+  .small {
+    // background-image: url("../images/project.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+      url("../images/bg.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 30px;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(49, 221, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-left: 20px;
+  }
+  .positionl {
+    position: absolute;
+    left: -60px;
+  }
+  .positionr {
+    position: absolute;
+    right: -40px;
+  }
+}

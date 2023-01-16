@@ -1,0 +1,45 @@
+.works {
+  // width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/bg.jpg");
+  background-size: cover;
+  img {
+    height: 400px;
+  }
+  .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background: linear-gradient(
+      rgba(220, 220, 215, 0.6),
+      rgba(223, 217, 217, 0.3)
+    );
+    padding: 20px;
+    height: 350px;
+    border-radius: 25px;
+
+    .inner {
+      text-align: justify;
+      text-transform: capitalize;
+      font-family: sans-serif;
+    }
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+  .carousel-indicators button {
+    background-color: lime;
+  }
+  .carousel-control-prev {
+    left: -187px;
+  }
+  .carousel-control-next {
+    right: -187px;
+    color: lime;
+  }
+}
